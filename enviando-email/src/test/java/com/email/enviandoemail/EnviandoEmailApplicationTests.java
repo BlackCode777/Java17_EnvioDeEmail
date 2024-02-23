@@ -6,8 +6,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class EnviandoEmailApplicationTests {
 
-	@Test
+	@org.junit.jupiter.api.Test
 	public void esteEmail() {
+
+		// Criando um email para enviar para o destinatário
+		// EmailService emailService = new EmailService();
 	}
 
 }
